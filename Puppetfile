@@ -1,76 +1,16 @@
 # Auto-generated Puppetfile for Puppet OpenStack project
 
 ## OpenStack modules
-mod 'aodh',
-  :git => 'https://git.openstack.org/openstack/puppet-aodh',
-  :ref => 'master'
-
-mod 'barbican',
-  :git => 'https://git.openstack.org/openstack/puppet-barbican',
-  :ref => 'master'
-
-mod 'ceilometer',
-  :git => 'https://git.openstack.org/openstack/puppet-ceilometer',
-  :ref => 'master'
-
-mod 'ceph',
-  :git => 'https://git.openstack.org/openstack/puppet-ceph',
-  :ref => 'master'
-
-mod 'cinder',
-  :git => 'https://git.openstack.org/openstack/puppet-cinder',
-  :ref => 'master'
-
-mod 'congress',
-  :git => 'https://git.openstack.org/openstack/puppet-congress',
-  :ref => 'master'
-
-mod 'designate',
-  :git => 'https://git.openstack.org/openstack/puppet-designate',
-  :ref => 'master'
-
-mod 'ec2api',
-  :git => 'https://git.openstack.org/openstack/puppet-ec2api',
-  :ref => 'master'
-
 mod 'glance',
   :git => 'https://git.openstack.org/openstack/puppet-glance',
-  :ref => 'master'
-
-mod 'gnocchi',
-  :git => 'https://git.openstack.org/openstack/puppet-gnocchi',
   :ref => 'master'
 
 mod 'heat',
   :git => 'https://git.openstack.org/openstack/puppet-heat',
   :ref => 'master'
 
-mod 'horizon',
-  :git => 'https://git.openstack.org/openstack/puppet-horizon',
-  :ref => 'master'
-
-mod 'ironic',
-  :git => 'https://git.openstack.org/openstack/puppet-ironic',
-  :ref => 'master'
-
 mod 'keystone',
   :git => 'https://git.openstack.org/openstack/puppet-keystone',
-  :ref => 'master'
-
-mod 'manila',
-  :git => 'https://git.openstack.org/openstack/puppet-manila',
-  :ref => 'master'
-
-mod 'mistral',
-  :git => 'https://git.openstack.org/openstack/puppet-mistral',
-  :ref => 'master'
-
-mod 'monasca',
-  :git => 'https://git.openstack.org/openstack/puppet-monasca',
-  :ref => 'master'
-
-mod 'murano',
-  :git => 'https://git.openstack.org/openstack/puppet-murano',
   :ref => 'master'
 
 mod 'neutron',
@@ -78,12 +18,8 @@ mod 'neutron',
   :ref => 'master'
 
 mod 'nova',
-  :git => 'https://git.openstack.org/openstack/puppet-nova',
-  :ref => 'master'
-
-mod 'octavia',
-  :git => 'https://git.openstack.org/openstack/puppet-octavia',
-  :ref => 'master'
+  :git => 'https://github.com/rski/puppet-nova',
+  :ref => 'make_cinder_dep_optinal'
 
 mod 'openstack_integration',
   :git => 'https://git.openstack.org/openstack/puppet-openstack-integration',
@@ -105,36 +41,12 @@ mod 'ovn',
   :git => 'https://git.openstack.org/openstack/puppet-ovn',
   :ref => 'master'
 
-mod 'panko',
-  :git => 'https://git.openstack.org/openstack/puppet-panko',
-  :ref => 'master'
-
-mod 'sahara',
-  :git => 'https://git.openstack.org/openstack/puppet-sahara',
-  :ref => 'master'
-
-mod 'swift',
-  :git => 'https://git.openstack.org/openstack/puppet-swift',
-  :ref => 'master'
-
 mod 'tempest',
   :git => 'https://git.openstack.org/openstack/puppet-tempest',
   :ref => 'master'
 
-mod 'trove',
-  :git => 'https://git.openstack.org/openstack/puppet-trove',
-  :ref => 'master'
-
 mod 'vswitch',
   :git => 'https://git.openstack.org/openstack/puppet-vswitch',
-  :ref => 'master'
-
-mod 'watcher',
-  :git => 'https://git.openstack.org/openstack/puppet-watcher',
-  :ref => 'master'
-
-mod 'zaqar',
-  :git => 'https://git.openstack.org/openstack/puppet-zaqar',
   :ref => 'master'
 
 ## External modules

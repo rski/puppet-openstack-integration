@@ -21,11 +21,5 @@ include ::openstack_integration::keystone
 include ::openstack_integration::glance
 include ::openstack_integration::neutron
 include ::openstack_integration::nova
-include ::openstack_integration::cinder
 include ::openstack_integration::horizon
 include ::openstack_integration::provision
-
-class { '::openstack_integration::tempest':
-  horizon => true,
-  cinder  => true,
-}
