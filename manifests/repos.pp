@@ -60,10 +60,4 @@ class openstack_integration::repos {
     $enable_epel = true
   }
 
-  class { '::ceph::repo':
-    enable_sig  => $enable_sig,
-    enable_epel => $enable_epel,
-    ceph_mirror => $::ceph_mirror_host,
-  }
-
 }
