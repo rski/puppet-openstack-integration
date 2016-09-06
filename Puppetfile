@@ -19,7 +19,7 @@ mod 'neutron',
 
 mod 'nova',
   :git => 'https://github.com/rski/puppet-nova',
-  :ref => 'make_cinder_dep_optinal'
+  :ref => 'make_cinder_dep_optional'
 
 mod 'openstack_integration',
   :git => 'https://git.openstack.org/openstack/puppet-openstack-integration',
