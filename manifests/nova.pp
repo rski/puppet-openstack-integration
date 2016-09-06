@@ -87,6 +87,7 @@ class openstack_integration::nova (
     default_floating_pool                => 'public',
     sync_db_api                          => true,
     service_name                         => 'httpd',
+    install_cinder_client                => false,
   }
   include ::apache
   class { '::nova::wsgi::apache':
