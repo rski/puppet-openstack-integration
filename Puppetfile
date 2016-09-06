@@ -1,4 +1,5 @@
 # Auto-generated Puppetfile for Puppet OpenStack project
+#
 
 ## OpenStack modules
 mod 'glance',
@@ -22,7 +23,7 @@ mod 'nova',
   :ref => 'make_cinder_dep_optional'
 
 mod 'openstack_integration',
-  :git => 'https://git.openstack.org/openstack/puppet-openstack-integration',
+  :git => 'https://github.com/rski/puppet-openstack-integration',
   :ref => 'master'
 
 mod 'openstack_extras',
